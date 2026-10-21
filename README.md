@@ -20,6 +20,42 @@ This project uses SQL to analyze player prices across Indian Premier League (IPL
 9. Which players cost more than their team's average player price?
 10. Who is the most expensive player in each role?
 
+## Key Findings
+
+### 1. Team Spending Is Relatively Even
+Total player prices sum to ₹1,180.9 crore across 228 players. Nine of the ten teams spent between ₹116.55 crore and ₹119.9 crore. Lucknow Super Giants had the highest total at ₹119.9 crore, while Kolkata Knight Riders had the lowest at ₹107.95 crore.
+
+### 2. High-Priced Players Account for a Large Share of Team Spending
+Rishabh Pant was the most expensive player at ₹27 crore for Lucknow Super Giants, accounting for 22.5% of the team's total player prices. Shreyas Iyer (Punjab, ₹26.75 crore) and Venkatesh Iyer (Kolkata, ₹23.75 crore) each accounted for close to 22% of their respective teams' totals.
+
+### 3. Highest-Priced All-Rounders
+- Ravindra Jadeja — ₹18 crore
+- Hardik Pandya — ₹16.35 crore
+- Abhishek Sharma — ₹14 crore
+
+### 4. Most Players Fall into the Low-Price Bracket
+Of the 228 players analyzed:
+- Low (under ₹5 crore): 151 players
+- Medium (₹5–15 crore): 56 players
+- High (over ₹15 crore): 21 players
+
+### 5. Overseas Players Have a Higher Average Price
+Overseas players averaged ₹5.64 crore across 72 players, compared with ₹4.97 crore across 156 Indian players—a difference of approximately ₹0.67 crore. Additionally, 28 overseas players were priced above the Indian-player average.
+
+### 6. Fewer Than Half of Players Exceed Their Team's Average
+Only 76 of 228 players (approximately 33.3%) had a price above their own team's average.
+
+### 7. Highest-Priced Players by Role
+- Batter/Wicketkeeper: Rishabh Pant — ₹27 crore
+- Batter: Venkatesh Iyer — ₹23.75 crore
+- All-rounder: Ravindra Jadeja — ₹18 crore
+- Bowler: Rashid Khan, Jasprit Bumrah, Arshdeep Singh, Yuzvendra Chahal, and Pat Cummins — ₹18 crore each
+
+## Business Takeaway
+
+The analysis highlights differences in team spending, the influence of high-priced players on team totals, and the distribution of player prices across roles and nationality categories. SQL aggregations, window functions, conditional logic, and correlated subqueries were used to answer these business questions.
+
+
 ## Repository Structure
 ```text
 IPL_SQL_Case_Study/
