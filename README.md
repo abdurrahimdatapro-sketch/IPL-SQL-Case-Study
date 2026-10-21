@@ -140,12 +140,7 @@ IPL_SQL_Case_Study/
 - The ranking queries use `ROW_NUMBER()` with player name as a tie-breaker. The role-based maximum-price query returns all ties.
 - The high price bracket is strictly greater than 15 Cr; medium is 5 Cr through 15 Cr inclusive; low is below 5 Cr.
 
-## Suggested Portfolio Summary
-**IPL SQL Case Study | SQL Server**
-
-Analyzed IPL player price data using SQL Server to answer 10 business questions about team spending, player rankings, price brackets, and spending concentration. Applied aggregations, window functions, CTEs, conditional logic, and correlated subqueries to turn raw player records into business-oriented insights.
-
 ## Future Improvements
-- Add a dashboard in Tableau or Power BI.
-- Add screenshots of selected query results and a short findings section.
-- Validate the source dataset and document its season and origin before making claims about official IPL values.
+- Build a dashboard in Tableau or Power BI to visualize team spending and player price distributions.
+- Add screenshots of selected SQL query results to make the analysis easier to explore.
+- Document the source dataset's season and origin to provide context for the analysis.
