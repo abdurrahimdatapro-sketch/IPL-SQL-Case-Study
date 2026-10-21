@@ -1,0 +1,5 @@
+# Optional local exports
+*.xlsx
+*.csv
+*.bak
+*.log
