@@ -20,6 +20,20 @@ This project uses SQL to analyze player prices across Indian Premier League (IPL
 9. Which players cost more than their team's average player price?
 10. Who is the most expensive player in each role?
 
+## SQL Analysis
+
+The complete SQL script containing all 10 business questions is available here:
+
+[View IPL SQL Case Study Queries](sql/IPL_SQL_Case_Study.sql)
+
+The analysis uses Microsoft SQL Server and demonstrates:
+- Aggregate functions and `GROUP BY`
+- Common Table Expressions (CTEs)
+- Window functions such as `ROW_NUMBER()` and `SUM() OVER`
+- Conditional logic using `CASE`
+- Correlated subqueries
+
+
 ## Key Findings
 
 ### 1. Team Spending Is Relatively Even
