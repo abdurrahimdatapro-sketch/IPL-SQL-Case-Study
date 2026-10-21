@@ -24,7 +24,7 @@ This project uses SQL to analyze player prices across Indian Premier League (IPL
 
 The complete SQL script containing all 10 business questions is available here:
 
-[View IPL SQL Case Study Queries](sql/IPL_SQL_Case_Study.sql)
+[View IPL SQL Case Study Queries](sql folder/IPL_SQL_Case_Study.sql)
 
 The analysis uses Microsoft SQL Server and demonstrates:
 - Aggregate functions and `GROUP BY`
