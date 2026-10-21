@@ -33,6 +33,20 @@ The analysis uses Microsoft SQL Server and demonstrates:
 - Conditional logic using `CASE`
 - Correlated subqueries
 
+## How to Run This Project
+
+### Requirements
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+
+### Steps
+1. Open SQL Server Management Studio and connect to your SQL Server instance.
+2. Open the database setup script from the `data/` folder.
+3. Execute the script to create and populate the `IPLPlayers` table.
+4. Open the SQL analysis script from `sql/IPL_SQL_Case_Study.sql`.
+5. Execute the queries to explore the IPL player price data and review the results.
+
+**Note:** Run the setup script before executing the analysis queries. If the table already exists and contains data, check the script before running it again to avoid duplicate records.
 
 ## Key Findings
 
